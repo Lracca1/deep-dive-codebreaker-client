@@ -19,6 +19,31 @@ public class Guess {
   @Expose(deserialize = true, serialize = false)
   private int outOfPlace;
 
+  public UUID getId() {
+    return id;
+  }
 
+  public URI getHref() {
+    return href;
+  }
 
+  public Date getCreated() {
+    return created;
+  }
+
+  public String getGuess() {
+    return guess;
+  }
+
+  public void setGuess(String guess) {
+    this.guess = guess;
+  }
+
+  public int getInPlace() {
+    return inPlace;
+  }
+
+  public int getOutOfPlace() {
+    return outOfPlace;
+  }
 }
