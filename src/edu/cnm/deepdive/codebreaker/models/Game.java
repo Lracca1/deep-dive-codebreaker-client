@@ -81,4 +81,7 @@ public class Game {
     this.guesses = guesses;
   }
 
+  public List<Guess> getGuesses() {
+    return guesses;
+  }
 }
